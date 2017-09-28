@@ -61,4 +61,6 @@ Route::resource('tags', 'TagController', ['except'=>['create']]);
 Route::post('comments/{post_id}', ['uses'=>'CommentController@store', 'as'=>'comments.store']);
 
 
-
+Route::get('search', function(){
+    return " Google is google";
+});
