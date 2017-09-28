@@ -62,5 +62,5 @@ Route::post('comments/{post_id}', ['uses'=>'CommentController@store', 'as'=>'com
 
 
 Route::get('search', function(){
-    return " Google is hello";
+    return " Google  hello";
 });
